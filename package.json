@@ -1,14 +1,17 @@
 {
-  "name": "ali",
-  "version": "1.0.0",
+  "name": "@moh-tayyab0342/typescript-quiz-project",
+  "version": "2.0.0",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Muhammad Tayyab",
   "license": "MIT",
-  "description": "",
+  "description": "test yourself",
   "dependencies": {
     "inquirer": "^9.2.20"
   },
