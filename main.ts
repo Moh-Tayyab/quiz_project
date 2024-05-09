@@ -205,9 +205,11 @@ for (let { question, choices, correctAnswer } of quiz) {
 
   if (userAnswer === correctAnswer) {
     console.log(chalk.bgGreenBright(chalk.black(`Correct!!`)));
+    
     score++;
   } else {
     console.log(chalk.bgRedBright(chalk.black(`Incorrect!!`)));
+    console.log(chalk.greenBright(chalk.bgCyan(`The Correct Answer is: ${correctAnswer}`)));
   }
 }
-console.log(chalk.bgBlueBright(`Your score is: 20/${score}`));
+console.log(chalk.bgBlueBright(chalk.magenta(`Your score is: 20/${score}`)));
